@@ -1,0 +1,12 @@
+--- This file is part of LuaDist project
+
+name = "cmake"
+version = "2.8.1"
+
+desc = "A cross-platform, open-source build system that generates native makefiles."
+license = "BSD"
+url = "http://cmake.org/"
+maintainer = "Peter Drahoš"
+
+-- NOTE: currently uses original CMakeLists.txt from tarball,
+-- which ignores any custom luadist install directories.
