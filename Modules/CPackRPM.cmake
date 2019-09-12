@@ -485,7 +485,7 @@ ${CPACK_RPM_INSTALL_FILES}
   # The generated file may then be used as a template by user who wants
   # to customize their own spec file.  
   IF(CPACK_RPM_GENERATE_USER_BINARY_SPECFILE_TEMPLATE)
-     MESSAGE(FATAL_ERROR "CPackRPM: STOP here Generated USER binary spec file templare is: ${CPACK_RPM_BINARY_SPECFILE}.in")
+     MESSAGE(FATAL_ERROR "CPackRPM: STOP here Generated USER binary spec file template is: ${CPACK_RPM_BINARY_SPECFILE}.in")
   ENDIF(CPACK_RPM_GENERATE_USER_BINARY_SPECFILE_TEMPLATE)
 ENDIF(CPACK_RPM_GENERATE_USER_BINARY_SPECFILE_TEMPLATE OR NOT CPACK_RPM_USER_BINARY_SPECFILE)
 
